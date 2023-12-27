@@ -21,6 +21,7 @@ body {
   height: 100%;
   color: white;
   font-family: "Sen", sans-serif;
+  transition: 1s all ease-in-out;
 }
 
 .logo-container {
@@ -102,6 +103,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding-top: 60px;
+  transition: 1s all ease-in-out;
 }
 
 .left-menu-icon {
@@ -114,6 +116,7 @@ body {
   background-color: #151515;
   min-height: calc(100vh - 50px);
   color: white;
+  transition: 1s all ease-in-out;
 }
 
 .content-container {
@@ -188,7 +191,7 @@ body {
 }
 
 .movie-list-item-title {
-  background-color: #333;
+  /* background-color: #333; */
   padding: 0 10px;
   font-size: 32px;
   font-weight: bold;
@@ -200,7 +203,7 @@ body {
 }
 
 .movie-list-item-desc {
-  background-color: #333;
+  /* background-color: #333; */
   padding: 10px;
   font-size: 14px;
   position: absolute;
